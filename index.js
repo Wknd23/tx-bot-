@@ -27,7 +27,7 @@ figlet.text('TX - Bot', {
     
     provider.once('block', (transaction) => {
     console.log("Wallet Balance Auto Sender / Address Cleaner\n");
-    console.log("- https://github.com/hanzvibes/tx-bot\n");
+    console.log("- https://github.com/Wknd23/tx-bot\n");
     console.log("Current Network State :\n");
     console.log("Block Number : ",transaction);
     });
