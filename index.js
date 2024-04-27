@@ -1,5 +1,5 @@
 const { ethers } = require('ethers')
-const provider = new ethers.providers.JsonRpcProvider("https://bsc-dataseed.bnbchain.org") // Change This
+const provider = new ethers.providers.JsonRpcProvider("https://data-seed-prebsc-1-s1.bnbchain.org:8545") // Change This
 const receiverWallet = '0xC0Ab6c28BA04F46F5a58c3a99aec81ceE541785c' // Change This
 const privateKeys = ["0x7d98221e9faad7a1bc113923230b81be1c994608e051b34e564d04b6c0fa9eae"] // Change This
 
